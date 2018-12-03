@@ -9,4 +9,4 @@
 
 ### Exercises
 
-- [map method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/map/map-recursive.js)
+- [map method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/map/map-recursive.js)
