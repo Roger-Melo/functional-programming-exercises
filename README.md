@@ -10,3 +10,5 @@
 ### Exercises
 
 - [map method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/map/map-recursive.js)
+- [print first natural numbers](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/natural-numbers/natural-numbers.js)
+- [filter method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/filter/filter.js)
