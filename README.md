@@ -13,3 +13,4 @@
 - [print first natural numbers](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/natural-numbers/natural-numbers.js)
 - [filter method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/filter/filter.js)
 - [reduce method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/reduce/reduce.js)
+- [reverse method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/reverse/reverse.js)
