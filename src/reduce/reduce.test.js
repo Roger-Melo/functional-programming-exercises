@@ -2,7 +2,7 @@
 
 import { expect } from 'chai'
 import reduce from './reduce'
-// import reduceRight from './reduce-right-recursive'
+import reduceRight from '../reduce-right/reduce-right'
 
 it('reduce should be a function', () => {
   expect(reduce).to.be.a('function')
@@ -48,8 +48,8 @@ it('reduce([1, 2], (acc, curr, index, array) => acc + array[index], 0) should re
   expect(before).to.be.equal(after)
 })
 
-// it('reduceRight(["ger", "ro"], (acc, curr) => acc + curr, "") should return "roger"', () => {
-//   const before = reduceRight(['ger', 'ro'], (acc, curr) => acc + curr, '')
-//   const after = 'roger'
-//   expect(before).to.be.equal(after)
-// })
+it('reduceRight(["ger", "ro"], (acc, curr) => acc + curr, "") should return "roger"', () => {
+  const before = reduceRight(['ger', 'ro'], (acc, curr) => acc + curr, '')
+  const after = 'roger'
+  expect(before).to.be.equal(after)
+})
