@@ -23,6 +23,8 @@
 
 - [every method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/every/every.js)
 
+- [some method](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/some/some.js)
+
 - [calculate sum from 1 to n](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/calculate-sum-from-1-to-n/calculate-sum-from-1-to-n.js)
 
 - [print first natural numbers](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/natural-numbers/natural-numbers.js)
