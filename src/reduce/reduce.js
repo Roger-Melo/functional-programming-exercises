@@ -1,18 +1,17 @@
 'use strict'
 
-const isAccInitialUndefined = accInitial => accInitial === undefined
+const isValueUndefined = value => value === undefined
 
-const reduce = (arr, func, accInitial) => {
-  const acc = isAccInitialUndefined(accInitial) ? arr[0] : accInitial
-  const arrCopy = isAccInitialUndefined(accInitial) ? arr.slice(1) : arr
+const reduce = (arr, func, initialValue) => {
+  const acc = isValueUndefined(initialValue) ? arr[0] : initialValue
+  const arrCopy = isValueUndefined(initialValue) ? arr.slice(1) : arr
 
   return (function reduceInternal (accInternal, arrInternal, counter) {
     const [head, ...tail] = arrInternal
-    const accNext = () => func(accInternal, head, counter, arrCopy)
 
     return arrInternal.length === 0
       ? accInternal
-      : reduceInternal(accNext(), tail, counter + 1)
+      : reduceInternal(func(accInternal, head, counter, arrCopy), tail, counter + 1)
   })(acc, arrCopy, 0)
 }
 
