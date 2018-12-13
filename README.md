@@ -28,3 +28,5 @@
 - [calculate sum from 1 to n](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/calculate-sum-from-1-to-n/calculate-sum-from-1-to-n.js)
 
 - [print first natural numbers](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/natural-numbers/natural-numbers.js)
+
+- [showing array elements](https://github.com/Roger-Melo/functional-programming-exercises/blob/master/src/showing-array-elements/showing-array-elements.js)
