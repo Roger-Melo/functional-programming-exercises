@@ -9,12 +9,12 @@ const showElements = (arr) => {
   
   const str = 'The elements in array are '
 
-  return (function showElementsInternal (arrInternal, strInternal) {
+  return (function showElementsInternal (strInternal, arrInternal) {
     const [head, ...tail] = arrInternal
 
     return arrInternal.length === 0
       ? strInternal.slice(0, -2)
-      : showElementsInternal(tail, strInternal.concat(`${head}, `))
+      : showElementsInternal(strInternal.concat(`${head}, `), tail)
   })(arr, str)
 }
 

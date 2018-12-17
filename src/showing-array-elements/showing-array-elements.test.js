@@ -12,14 +12,14 @@ it(
   () => {
     const before = showElements([1, 2, 3])
     const after = 'The elements in array are 1, 2, 3'
-    expect(before).to.be.equal(after)
+    expect(before).to.be.deep.equal(after)
   }
 )
 
 it('showElements([1, 2]) should return "The elements in array are 1, 2"', () => {
   const before = showElements([1, 2])
   const after = 'The elements in array are 1, 2'
-  expect(before).to.be.equal(after)
+  expect(before).to.be.deep.equal(after)
 })
 
 it('showElements() shoud return a TypeError', () => {
