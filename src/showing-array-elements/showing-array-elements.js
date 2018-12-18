@@ -15,7 +15,7 @@ const showElements = (arr) => {
     return arrInternal.length === 0
       ? strInternal.slice(0, -2)
       : showElementsInternal(strInternal.concat(`${head}, `), tail)
-  })(arr, str)
+  })(str, arr)
 }
 
 export default showElements
